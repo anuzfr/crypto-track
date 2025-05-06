@@ -30,7 +30,7 @@ export default function InterestSlider() {
   };
 
   return (
-   <div className="bg-zinc-800 text-white p-6 rounded-xl shadow-lg w-full sm:w-auto max-w-md mt-8 ml-10">
+   <div className="bg-zinc-800 text-white p-6 rounded-3xl shadow-lg w-[250px] h-[200px] flex flex-col justify-between">
       <h2 className="text-2xl font-bold mb-4 text-center text-cyan-400">altcoins interest</h2>
       <div className="flex justify-between text-sm text-gray-400 mb-1">
         <span>Bitcoin</span>

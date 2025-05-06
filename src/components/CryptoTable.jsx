@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import axios from 'axios';
 import RefreshButton from './RefreshButton';
-import logo from '../assets/logo.png';
+
 
 export default function CryptoTable() {
   const [coins, setCoins] = useState([]);
@@ -56,7 +56,7 @@ export default function CryptoTable() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-800 text-white p-6 overflow-x-auto pb-1">
+    <div className="min-h-[80vh] bg-gray-800 text-white p-3 overflow-x-auto pb-1">
       <div className="flex flex-wrap justify-start gap-4 mb-6">
         <RefreshButton onClick={fetchCoins} />
         <button
@@ -71,7 +71,7 @@ export default function CryptoTable() {
         </button>
       </div>
 
-      <table className="w-full border-collapse border border-gray-700">
+      <table className="w-full border-collapse border border-gray-500">
         <thead className="bg-gray-800">
           <tr>
             <th className="p-3 border border-gray-700 text-left">#</th>

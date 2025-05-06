@@ -47,7 +47,7 @@ export default function PortfolioTracker() {
   const total = portfolio.reduce((sum, p) => sum + p.amount, 0);
 
   return (
-    <div className="bg-gray-800 text-white p-6 rounded-lg max-w-md ml-10  ">
+    <div className="bg-zinc-800 text-white p-6 rounded-3xl shadow-lg w-[400px]">
       <h2 className="text-2xl font-bold mb-4 text-cyan-400">Crypto Portfolio</h2>
       <div className="flex flex-col gap-2 mb-4">
         <input
