@@ -10,6 +10,7 @@ export default function Navbar() {
       </Link>
       <div className="flex items-center gap-6">
         <ul className="flex gap-6 text-lg">
+
           <li>
             <Link
               to="/cryptos"
@@ -18,6 +19,7 @@ export default function Navbar() {
               All Cryptos
             </Link>
           </li>
+
           <li>
             <Link
               to="/exchanges"
@@ -26,6 +28,7 @@ export default function Navbar() {
               Exchanges
             </Link>
           </li>
+
           <li>
             <Link
               to="/trade"
@@ -34,6 +37,7 @@ export default function Navbar() {
               Trade
             </Link>
           </li>
+
           <li>
             <Link
               to="/convert"
@@ -42,11 +46,12 @@ export default function Navbar() {
               Convert
             </Link>
           </li>
+
         </ul>
         <input
           type="text"
-          placeholder="Search coin / token / dexpairs"
-          className="px-4 py-2 bg-zinc-800 text-white border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 transition placeholder:text-gray-400 w-64"
+          placeholder="🔍 Search coin / token / dexpairs"
+          className="px-4 py-2 bg-zinc-800 text-white border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 transition placeholder:text-gray-400 w-68"
         />
       </div>
     </nav>
