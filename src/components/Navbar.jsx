@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
+import AllCryptos from './AllCryptos';
 
 export default function Navbar() {
   return (
@@ -12,12 +13,12 @@ export default function Navbar() {
         <ul className="flex gap-6 text-lg">
 
           <li>
-            <Link
-              to="/cryptos"
-              className="hover:text-cyan-400 transition-colors duration-200"
-            >
-              All Cryptos
-            </Link>
+          <Link
+            to="/cryptos"
+            className="hover:text-cyan-400 transition-colors duration-200"
+          >
+            AllCryptos
+          </Link>
           </li>
 
           <li>
