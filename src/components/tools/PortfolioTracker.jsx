@@ -47,7 +47,7 @@ export default function PortfolioTracker() {
   const total = portfolio.reduce((sum, p) => sum + p.amount, 0);
 
   return (
-    <div className="bg-zinc-800 text-white p-6 rounded-3xl shadow-lg w-[400px]">
+    <div className="bg-zinc-800 text-white p-6 rounded-3xl shadow-lg w-[400px] h-[410px]">
       <h2 className="text-2xl font-bold mb-4 text-cyan-400">Crypto Portfolio</h2>
       <div className="flex flex-col gap-2 mb-4">
         <input
@@ -60,20 +60,20 @@ export default function PortfolioTracker() {
         <input
           type="number"
           placeholder="Total USD Spent"
-          className="p-2 rounded bg-gray-700 text-white"
+          className="p-2 rounded bg-gray-700 text-white mt-2"
           value={usd}
           onChange={(e) => setUsd(e.target.value)}
         />
         <input
           type="number"
           placeholder="Number of Coins Bought"
-          className="p-2 rounded bg-gray-700 text-white"
+          className="p-2 rounded bg-gray-700 text-white mt-2"
           value={count}
           onChange={(e) => setCount(e.target.value)}
         />
         <button
           onClick={handleAdd}
-          className="bg-green-600 hover:bg-green-700 py-2 px-4 rounded text-white font-semibold"
+          className="bg-green-600 hover:bg-green-700 py-2 px-4 rounded text-white font-semibold mt-2"
         >
           ➕ Add Crypto
         </button>

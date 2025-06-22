@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import AllCryptos from './AllCryptos';
+import Exchanges from './exchanges';
 
 export default function Navbar() {
   return (

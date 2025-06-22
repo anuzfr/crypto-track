@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import InfiniteCarousel from './components/InfiniteCarousel';
 import AllCryptos from './components/AllCryptos';
 import Convert from './components/Convert';
+import Exchanges from './components/exchanges';
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<CryptoTable />} />
         <Route path="/cryptos" element={<AllCryptos />} />
+        <Route path="/exchanges" element={<Exchanges />} />
         <Route path="/convert" element={<Convert />} />
-        {/* Additional routes for /cryptos, /exchanges, etc. can be added */}
       </Routes>
       <Dashboard/>
       <InfiniteCarousel/>

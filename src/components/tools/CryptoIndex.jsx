@@ -66,7 +66,7 @@ const CryptoIndex = () => {
   }, []);
 
   return (
-    <div className="h-50 w-[250px] bg-zinc-800 text-white rounded-3xl p-4 shadow-md">
+    <div className="h-50 w-[250px] bg-zinc-800 text-white rounded-3xl p-4 mt-2 shadow-md">
       <div className="flex items-center justify-between mb-2">
         <span className="text-sm text-gray-400">CT 100</span>
         <span className="text-gray-500">{'>'}</span>
